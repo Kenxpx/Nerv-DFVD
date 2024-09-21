@@ -1,5 +1,6 @@
 # Nerv-DFVD
 AI-powered web app for detecting deepfake videos with high accuracy.
+
 ## Features
 
 - Upload videos in common formats (MP4, AVI, etc.)
@@ -10,7 +11,7 @@ AI-powered web app for detecting deepfake videos with high accuracy.
 
 ## Demo
 
-You can access the live version of the web app at nervgames.com
+You can access the live version of the web app at [nervgames.com](http://nervgames.com).
 
 ## Requirements
 
@@ -22,10 +23,7 @@ Before running the web app, ensure you have the following installed:
 - OpenCV
 - Nerv-DFVD dependencies
 
-To install the required packages, run:
+To install the required packages, run the following commands in your terminal:
 
 ```bash
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+pip install -r requirements.txt && python manage.py migrate && python manage.py createsuperuser && python manage.py runserver
