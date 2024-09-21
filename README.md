@@ -12,26 +12,34 @@ AI-powered web app for detecting deepfake videos with high accuracy.
 ## Installation
 
 1. Clone the repository:
+   ```bash
    git clone https://github.com/Kenxpx/Nerv-DFVD.git
    cd Nerv-DFVD
 
 2. Create a virtual environment and activate it:
+   ```bash
    python -m venv venv
    venv\Scripts\activate
 
 3. Install the required packages:
+   ```bash
    pip install -r requirements.txt
 
 4. Apply database migrations:
+   ```bash
    python manage.py migrate
 
 5. Create a superuser (admin) account:
+   ```bash
    python manage.py createsuperuser
 
 6. Run the development server:
+   ```bash
    python manage.py runserver
 
-7. Access the application at http://127.0.0.1:8000
+7. Access the application at
+   ```bash
+   http://127.0.0.1:8000
 
 ## Usage
 
