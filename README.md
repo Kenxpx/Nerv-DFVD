@@ -82,3 +82,46 @@ This project is licensed under the Apache License - see the LICENSE file for det
 For any queries or suggestions, please open an issue on the GitHub repository.
 
 Project Link:   https://github.com/Kenxpx/Nerv-DFVD
+
+## File Structure
+
+PS C:\Users\sachi\Music\Nerv-DFVD> tree /F
+Folder PATH listing
+Volume serial number is XXXX-XXXX
+C:.
+│   LICENSE
+│   manage.py
+│   README.md
+│   
+├───app
+│   │   admin.py
+│   │   apps.py
+│   │   forms.py
+│   │   models.py
+│   │   tests.py
+│   │   urls.py
+│   │   views.py
+│   │   __init__.py
+│   │
+│   └───migrations
+│           __init__.py
+│
+├───detection_unit
+│       asgi.py
+│       settings.py
+│       urls.py
+│       wsgi.py
+│       __init__.py
+│
+├───models
+│       Ken.h5
+│
+├───notebooks
+│       final.ipynb
+│       usinglstmcnn.ipynb
+│
+└───templates
+        base.html
+        landing_page.html
+        results.html
+        upload.html
