@@ -86,9 +86,7 @@ Project Link:   https://github.com/Kenxpx/Nerv-DFVD
 ## File Structure
 
 ```bash
-PS C:\Users\sachi\Music\Nerv-DFVD> tree /F
-Folder PATH listing
-Volume serial number is XXXX-XXXX
+
 C:.
 │   LICENSE
 │   manage.py
