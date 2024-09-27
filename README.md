@@ -84,8 +84,8 @@ For any queries or suggestions, please open an issue on the GitHub repository.
 Project Link:   https://github.com/Kenxpx/Nerv-DFVD
 
 ## File Structure
-'''bash 
 
+```bash
 PS C:\Users\sachi\Music\Nerv-DFVD> tree /F
 Folder PATH listing
 Volume serial number is XXXX-XXXX
