@@ -6,7 +6,6 @@ AI-powered web app for detecting deepfake videos with high accuracy.
 - User authentication system
 - Video upload functionality
 - Deepfake detection using a pre-trained machine learning model
-- RESTful API for programmatic access to the detection service
 - User profile to view past detection results
 
 ## Installation
@@ -55,16 +54,9 @@ AI-powered web app for detecting deepfake videos with high accuracy.
 3. Submit the video and wait for the detection results.
 4. View your detection history in your user profile.
 
-## API Usage
-
-The project includes a RESTful API for programmatic access:
-
-Authentication is required for API access. Use the browsable API interface or tools like curl or Postman for testing.
-
 ## Technology Stack
 
 - Django
-- Django REST Framework
 - TensorFlow
 - OpenCV
 - SQLite (default database, can be changed for production)
