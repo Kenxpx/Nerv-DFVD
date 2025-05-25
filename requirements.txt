@@ -3,3 +3,4 @@ numpy
 tensorflow
 django
 pillow
+gunicorn
