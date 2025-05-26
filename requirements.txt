@@ -1,6 +1,6 @@
 opencv-python
 numpy
-tensorflow
+tensorflow==2.13.0
 django
 pillow
 gunicorn
