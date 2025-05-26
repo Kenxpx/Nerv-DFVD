@@ -4,3 +4,5 @@ tensorflow==2.13.0
 django
 pillow
 gunicorn
+dj-database-url
+whitenoise
