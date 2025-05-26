@@ -67,7 +67,7 @@ Contributions to Nerv-DFVD are welcome! Please feel free to submit a Pull Reques
 
 ## License
 
-This project is licensed under the Apache License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ## Contact
 
