@@ -7,3 +7,4 @@ gunicorn
 dj-database-url
 whitenoise
 django-heroku
+psycopg2-binary
