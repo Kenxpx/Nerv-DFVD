@@ -1,1 +1,1 @@
-web: gunicorn detection_unit.wsgi --log-file -
+web: gunicorn detection_unit.wsgi:application --log-file -
