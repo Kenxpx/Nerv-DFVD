@@ -2,7 +2,7 @@ FROM python:3.10-slim-bookworm
 
 WORKDIR /app
 
-# ✅ Fixed: replaced libgl1-mesa-glx with libgl1
+# ✅ Fixed: use libgl1 instead of libgl1-mesa-glx
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     python3-dev \
@@ -18,7 +18,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# ✅ Collect static files (Django)
+# ✅ Collect static files (important for Django + whitenoise)
 RUN python manage.py collectstatic --noinput
 
 EXPOSE 8000
